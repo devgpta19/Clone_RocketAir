@@ -17,10 +17,19 @@ body::-webkit-scrollbar{
     width: 100%;
     overflow: hidden;
 }
+
+#scrol{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    overflow: hidden;
+}
+
 #hero{
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 100%;
     width: 100%;
     background-color: rgb(0, 0, 0);
     position: fixed;
@@ -31,6 +40,16 @@ body::-webkit-scrollbar{
     line-height: 12.8vh;
     letter-spacing: 0.15vw;
 }
+
+#heroblack{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    opacity: 0;
+    z-index: 3;
+}
+
 #content{
     position: relative;
     min-height: 100vh;

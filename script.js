@@ -32,7 +32,7 @@ function locomotiveScroll(){
     ScrollTrigger.refresh();
 }
 
-function slidesHandleKaro() {
+function slides() {
     let allSlides = document.querySelectorAll(".sld");
     allSlides = [...allSlides];
 
@@ -85,6 +85,7 @@ function gsapCodeScenarios() {
 }
 
 function textAnimationCode() {
+
     document.querySelectorAll(".rowtxts")
         .forEach(function (row) {
             row.innerHTML = `<div class="textwrapper">${row.innerHTML}</div>`;
@@ -142,4 +143,4 @@ locomotiveScroll();
 gsapCodeScenarios();
 textAnimationCode();
 workAnimationCode();
-slidesHandleKaro();
+slides();

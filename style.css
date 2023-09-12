@@ -664,6 +664,7 @@ border-top: 1px solid #444;
     #desc{
         height: initial;
         padding: 10vh 4vw;
+        opacity: 0;
     }
 
     #desc h1{
